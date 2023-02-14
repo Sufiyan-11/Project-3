@@ -1,0 +1,70 @@
+.img{
+    background-image: url("images/billboard.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width:100%;
+    height: 100vh;
+}
+a:hover{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+ul{
+    display: flex;
+    padding-right: 50px;
+    
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #d8cdc5; 
+    opacity: 0.6;
+    
+}
+.logo{
+    height: 25px;
+    
+
+}
+img{
+    height: 68px;
+    padding-left: 50px;
+
+}
+.nav2{
+    display: flex;
+    justify-content: space-between;
+    background-color:#d8cdc5 ;
+    opacity: 0.6;
+    position: absolute;
+    top: 94%;
+    width: 99%;
+}
+button:hover{
+    background-color: #5070ff;
+}
+button{
+    background-color:#50ccff;
+    border: none;
+    font-weight: bolder;
+    color: white;
+    height: 30px;
+    padding:10px;
+    margin: 10px;
+    margin-right: 50px;
+    
+}
+.ptag{
+    margin-left: 10px;
+    font-weight:bolder;
+}
