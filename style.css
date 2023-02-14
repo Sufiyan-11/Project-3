@@ -68,26 +68,55 @@ button{
     margin-left: 10px;
     font-weight:bolder;
 }
-#middle-grid{
+
+#middle-grid,#clients{
 background-color: #fbfbfb;
 width: 50%;
 position: relative;
 left: 27%;
-
 }
-.heading{
-    
+.heading,.heading1{
+    color: #857c7c;
+    font-weight: bolder;
     text-align: center;
 }
-.grid-container{
+.size{
+    width: 67%;
+    margin-left: 29px;
+}
+.grid-container,.grid-container1{
     display: grid;
     grid-column-gap:20px;
     grid-template-columns: auto auto auto;
     padding: 10px;
 }
-.center{
+.center,.position{
     text-align: center;
-   margin-left: auto;
-   margin-right: auto;
-
+    color: #857c7c;
+    font-weight: bolder;
+    font-size: large;
 }
+.center1,.position1{
+    text-align: center;
+    color: #bab5b5; 
+    font-size: small;
+}
+/* .flex-container{
+    display: flex;
+}
+.img1{
+    height :30%;
+} */
+.resize{
+    height: 400px;  
+}
+.radius{
+    padding-left: 10px;
+   margin-left: 87px;
+    border-radius: 50%;
+}
+.s1{
+    font-size: small;
+    font-weight: lighter;
+}
+
