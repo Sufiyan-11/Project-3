@@ -38,7 +38,7 @@ ul{
 }
 img{
     height: 68px;
-    padding-left: 50px;
+    padding-left: 100px;
 
 }
 .nav2{
@@ -67,4 +67,27 @@ button{
 .ptag{
     margin-left: 10px;
     font-weight:bolder;
+}
+#middle-grid{
+background-color: #fbfbfb;
+width: 50%;
+position: relative;
+left: 27%;
+
+}
+.heading{
+    
+    text-align: center;
+}
+.grid-container{
+    display: grid;
+    grid-column-gap:20px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+.center{
+    text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+
 }
