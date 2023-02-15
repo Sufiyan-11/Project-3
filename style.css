@@ -19,7 +19,7 @@ li{
     font-size: 20px;
     font-weight: bolder;
 }
-ul{
+.list-style{
     display: flex;
     padding-right: 50px;
     
@@ -51,7 +51,7 @@ img{
     width: 99%;
 }
 button:hover{
-    background-color: #5070ff;
+    background-color: black;
 }
 button{
     background-color:#50ccff;
@@ -119,4 +119,91 @@ left: 27%;
     font-size: small;
     font-weight: lighter;
 }
+.brand-container{
+    display: flex;
+    justify-content: center;
+    background-color: #f2f1f1cb;
+    height: 56px;
+    margin-top: 30px;
+}
+.citem{
+    padding-top: 20px;
+}
+.img-size{
+    height: 30px;
+}
+#footer{
+    background-color: #353535;
+}
+.center-div{
+    display: flex;
+    justify-content: center;
+   
+}
+.justify{
+    display: flex;
+    justify-content: center;
+}
+.nav3{
+    background-color: #434343;
+    width: 47%;
+    display: flex;
+    justify-content: center;
+    
+}
+.ptag1{
+    color: white;
+}
+.btn{
+    width: 100%;
+    margin-left: 20px;
+}
+.grid-container2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 20px;
+    padding-right: 17%;
+    padding-left: 19%;
+    margin-top: 49px;
+}
+.gitem{
+    margin-left: 50px;
+}
+.color{
+    color:white;
+    font-weight: bolder;
+    font-size: medium;
+    margin-left: 45px;
+}
+.hd{
+    color:white;
+    font-weight: bolder;
+    font-size: medium;
+}
+.color2{
+    color: white;
+    font-size: smaller;
+}
+.color1{
+    color:white ;
+    font-size:smaller;
+    list-style: none;
+    margin-right: 10px;
+    font-weight: lighter;
+    
+}
+.social{
+    height: 20px;
+    position: relative;
+    right: 106px;
+}
+.para{
+    text-align: center;
+    font-size:10px;
+    color: white;
+    padding-top: 72px;
+    padding-bottom: 10px;
+}
+
+
 
