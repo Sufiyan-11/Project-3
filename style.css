@@ -204,6 +204,78 @@ left: 27%;
     padding-top: 72px;
     padding-bottom: 10px;
 }
+@media only screen and (max-width:600px){
+    .img{
+        background-size:cover
+        /* width:100%;
+        height: 100vh; */
+    }
+    .nav{
+        width: 343px;
+        height: 77px;
+    }
+    img{
+        height: 62px;
+        padding-left: 6px;
+    }
+    li{
+        font-size: 13px;  
+    }
+    .nav2{
+        width: 95%;
+        height: 53px;
+    }
+    button{
+        width: 109px;
+        margin: 5px;
+        height: 42px;
+        margin-right: 6px;
+    }
+    #middle-grid{
+        width: 100%;
+        left: 0%;
+    }
+    .resize{
+        height: 105px;
+    }
+    #clients{
+        width: 100%;
+        left: 0%;
+    }
+    .grid-container1{
+        grid-template-columns: auto;
+    }
+    .img-size{
+        height: 18px;
+    }
+    .ptag1{
+        font-size: 10px;
+        padding-left: 5px;
+    }
+    .nav3{
+        width: 89%;
+    }
+    .btn{
+        font-size: 10px;
+        margin-left: 0%;
+        height: 33px;
+    }
+    .color,.hd{
+        font-size: 9px;
+
+    }
+    .ul1,.color2{
+        font-size: 7px;
+    }
+    .social{
+        height: 13px;
+        right: 7px;
+    }
+    .gitem{
+        margin-left: 0px;
+    }
+
+}
 
 
 
